@@ -12,7 +12,7 @@ st.title("🚖 OLA Ride Insights Dashboard")
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("../data/ola_cleaned.csv")
+    return pd.read_csv("data/ola_cleaned.csv")
 
 df = load_data()
 
